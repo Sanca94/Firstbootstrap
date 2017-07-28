@@ -1,5 +1,332 @@
 /* Angels custom CSS */
 
+
+
+
 .navbar {
+	position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 9999;
 	margin-bottom: 0;
+	background: none;
+	border-top: 0;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0;
 }
+
+.navbar .affix{
+	background: white;
+}
+
+.navbar .navbar-brand {
+	color: white;
+	opacity: .5;
+	
+}
+
+.navbar .navbar-brand:hover{
+	color: white;
+	opacity: 1;
+	transition: all 0.2s linear;
+}
+
+.homebut {
+	color: #9acd32;
+	opacity: 1;
+}
+
+.navbar-nav.navbar-right li a {
+	color: white;
+	opacity: .5;
+}
+
+.navbar-nav.navbar-right li a:hover {
+	color: white;
+	opacity: 1;
+	transition: all 0.2s linear;
+}
+
+.dropdown.open li a {
+	color: black;
+	opacity: 1;
+}
+
+.jumbotron {
+	background: url(https://www.quackit.com/html/templates/download/bootstrap/business-2/images/header.jpg);
+	height: 100vh;
+	margin: 0;
+	color: white;
+	background-position: center;
+}
+
+.jumbotron .container{
+	padding: 100px 0;
+}
+
+
+.jumbotron h1 {
+	text-align: center;
+	font-size: 100px;
+}
+
+.jumbotron p {
+	text-align: center;
+	font-size: 18px;
+	opacity: .75;
+}
+
+.jumbotron p a {
+	border-radius: 50px;
+    text-transform: uppercase;
+    border-color: #9acd32;
+    background: #9acd32;
+}
+
+
+
+.intro {
+	background: #9acd32;
+    color: white;
+}
+
+.intro .row{
+	padding: 70px 0;
+}
+
+.intro .glyphicon.glyphicon-apple {
+	font-size: 60px;
+	text-align: center;
+	display: block;
+}
+
+.intro h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+.intro p {
+	text-align: center;
+	font-size: 16px;
+	opacity: .75;
+}
+
+.content1 {
+	padding: 100px 0;
+}
+
+.content1 img {
+	max-width: 100%;
+	border-radius: 50%;
+}
+
+
+.content1 h2 {
+	font-size: 30px;
+}
+
+.content1 p {
+	font-size: 21px;
+	color: #777;
+}
+
+.content1 a {
+	border-radius: 50px;
+    text-transform: uppercase;
+    border-color: #9acd32;
+    background: #9acd32;
+}
+
+.content2 {
+	padding: 100px 0;
+}
+
+.content2 img {
+	max-width: 100%;
+	border-radius: 50%;
+}
+
+.content2 {
+	background: #222;
+}
+
+.content2 h2 {
+	color: white;
+	font-size: 30px;
+}
+
+.content2 p {
+	font-size: 21px;
+	color: #777;
+}
+
+.content2 a {
+	color: #222;
+	border-radius: 50px;
+    text-transform: uppercase;
+    border-color: white;
+    background: white;
+}
+
+.content2 a:hover {
+	opacity: .75;
+	transition: all 0.2s linear;
+
+}
+
+/*very messy want to midify .img, .img2, .img3 all at same time but didnt work*/
+
+.threeimg .col-md-4{
+	height: 200px;
+    line-height: 180px;
+    text-align: center;
+}
+
+.threeimg .col-md-4.img1 {
+	background: url(https://www.quackit.com/html/templates/download/bootstrap/business-2/images/writing.jpg);
+	background-size: cover;
+    background-position: 50% 50%;
+   
+}
+
+
+.threeimg .col-md-4.img2 {
+	background: url(https://www.quackit.com/html/templates/download/bootstrap/business-2/images/concert.jpg);
+	background-size: cover;
+    background-position: 50% 50%;
+    
+}
+
+
+.threeimg .col-md-4.img3 {
+	background: url(https://www.quackit.com/html/templates/download/bootstrap/business-2/images/pencil_sharpener.jpg);
+	background-size: cover;
+    background-position: 50% 50%;
+   
+}
+
+
+.threeimg .col-md-4.img1 h3 {
+	font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    color:#e6e6e6;
+    text-shadow: 0px 0px 40px black;
+}
+	
+.threeimg .col-md-4.img2 h3 {
+	font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    color:#e6e6e6;
+    text-shadow: 0px 0px 40px black;
+    
+}
+
+.threeimg .col-md-4.img3 h3 {
+	font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    color:#e6e6e6;
+    text-shadow: 0px 0px 40px black;
+
+}
+	
+
+.threeimg .col-md-4.img1:hover{
+	border: 10px solid #fbf8f8;
+}
+
+.threeimg .col-md-4.img2:hover{
+	border: 10px solid #fbf8f8;
+}
+
+.threeimg .col-md-4.img3:hover{
+	border: 10px solid #fbf8f8;
+}
+
+.glyphicon.glyphicon-pushpin {
+	color: #9acd32;
+	font-size: 40px;
+	text-align: center;
+	display: block;
+}
+
+.content3 {
+	padding: 20px 0 40px;
+}
+
+.content3 h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+.content3 p {
+	text-align: center;
+	color: #777;
+	font-size: 21px;
+}
+
+.content3 a {
+	border-radius: 50px;
+    text-transform: uppercase;
+    border-color: #9acd32;
+    background: #9acd32;
+}
+
+.feet .contact {
+	background: #9acd32;
+	padding: 100px 0;
+}
+
+.contact h2 {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+
+.glyphicon.glyphicon-earphone {
+	font-size: 32px;
+	color: white;
+	text-align: center;
+	display: block;
+}
+
+.glyphicon.glyphicon-envelope {
+	font-size: 32px;
+	color: white;
+	text-align: center;
+	display: block;
+}
+
+.contact p {
+	text-align: center;
+	color: white;
+	font-size: 22px;
+}
+
+.copy {
+	text-align: center;
+	font-size: 16px;
+	padding: 50px 0 40px;
+}
+
+
+/* !!!!!!!About!!!!!!! */
+
+.page .about {
+	color: blue;
+}
+
+.page .about .input-group {
+	margin-bottom: 15px;
+}
+
+.page .about .btn.btn-default {
+	margin-top: 20px;
+}
+
+/* !!!!!!!About END!!!!!!! */
